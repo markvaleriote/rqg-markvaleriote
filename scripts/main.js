@@ -13,3 +13,17 @@ var description = document.createElement("p");
 description.innerHTML = "This is a description";
 
 header.appendChild(description);
+// ----------------------------------------------
+var quoteArea=document.createElement("div");
+
+quoteArea.setAttribute("id","quoteArea");
+    
+var dataTips=[{key:"value"},
+    {tip:"This is one tip"},
+    {tip:"This is another tip"},
+    {tip:"3rd tip"},
+    {tip:"4th tip"},
+    {tip:"5th tip"}];
+
+console.log(dataTips.length);
+
